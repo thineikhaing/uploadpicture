@@ -1,0 +1,30 @@
+
+	
+<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <ImageView 
+        android:id="@+id/imageView_pic" 
+        android:layout_gravity="center" 
+        android:layout_height="100dp" 
+        android:layout_width="100dp" 
+        android:src="@drawable/ic_launcher"
+        android:contentDescription ="image"
+      >
+ </ImageView>
+ 
+    <Button 
+        android:id="@+id/button_selectpic" 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent"
+        android:text="Select Picture">
+	</Button>
+	
+    <Button 
+        android:id="@+id/uploadButton" 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:text="Click To Upload File">
+	</Button>
+    <TextView android:id="@+id/messageText" android:layout_height="wrap_content" android:layout_width="fill_parent" >
+	</TextView>
+</LinearLayout>
